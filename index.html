@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>បុណ្យខួបកំណើតស្រស់ស្រាយ</title>
+    
+    <style>
+        
+        /* General body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url(love.jpg);
+            background-size: cover;
+            background-repeat: repeat; /* Love pink background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .sembunyi {
+            visibility: hidden;
+            height: 0;
+            width: 0;
+            position: absolute;
+        }
+
+
+        li {
+            position: relative;
+            left: -22px;
+        }
+
+        /* Main container styling */
+        .container {
+            background-color: #ffffffc0;
+            max-width: 700px;
+            width: 90%;
+            border-radius: 20px;
+            padding: 20px 30px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Title styling */
+        h1 {
+            font-size: 2rem;
+            color: #ff7f7f; /* Soft romantic red */
+            margin-bottom: 15px;
+        }
+
+        /* Paragraph styling */
+        p {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.8;
+            font-style: italic;
+        }
+
+        /* Slideshow container styling */
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .slides {
+            display: none;
+        }
+
+        .slides img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 10px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.3s;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev {
+            left: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .dot-container {
+            text-align: center;
+            padding: 10px 0;
+            background: none;
+        }
+
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+            background-color: #717171;
+        }
+
+        /* Footer styling */
+        .footer {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #ffe6e6; /* Soft pink background */
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color: #ff4d4d; /* Romantic red */
+        }
+
+        .footer h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #ff6666; /* Softer romantic red */
+        }
+
+        .footer p {
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .footer .heart-icon {
+            color: #ff4d4d;
+            font-size: 1.5rem;
+            animation: beat 1s infinite;
+        }
+
+        @keyframes beat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <audio src="song.mp3" id="linkmp3" class="sembunyi"></audio>
+<br><br>    
+    <button onclick="document.getElementById('linkmp3').play()">Play Music</button>
+<br><br>
+    <div class="container">
+        <h1> បុណ្យខួបកំណើតស្រស់ស្រាយ, Nith Jerry!</h1>
+        <br>
+        <p>
+            🎂 មុនពេលនេះ ប្រាកដជាមិនមានអ្វីល្អជាងការប្រារព្ធខួបកំណើតរបស់អ្នក។ <br>
+            ខ្ញុំសូមជូនពរអ្នកអោយបានសុខសាន្ត គ្មានអ្វីកាត់បន្ថយ និងសង្ឃឹមអោយគ្រប់សុបិន
+            របស់អ្នកក្លាយទៅជាការពិត។  <br><br>
+            ខ្ញុំស្រឡាញ់អ្នកមិនតែប៉ុណ្ណោះ គឺស្រឡាញ់ដោយស្មោះ។ ❤️ អ្នកជាស្នេហាដ៏សំខាន់
+            និងជាមិត្តដ៏ល្អរបស់ខ្ញុំ។
+            <br><br>
+            សួស្តីថ្ងៃកំណើត ស្នេហ៍អើយ! ខ្ញុំសូមជូនពរឲ្យអ្នកមានសុភមង្គល សុខភាពល្អ សម្រេចបានគ្រប់អ្វីដែលអ្នកប៉ងប្រាថ្នា ហើយសូមអរគុណសម្រាប់ការមានអ្នកក្នុងជីវិតខ្ញុំ។ ខ្ញុំស្រលាញ់អ្នកជាងអ្វីៗទាំងអស់។ ជាទីស្រឡាញ់និងគាំទ្រតែងតែ។
+        </p>
+
+        <!-- Slideshow -->
+        <div class="slideshow-container">
+            <div class="slides">
+                <img src="nith.jpg" alt="Photo 1">
+            </div>
+            <div class="slides">
+                <img src="nith2.jpg" alt="Photo 2">
+            </div>
+            <div class="slides">
+                <img src="nith3.jpg" alt="Photo 3">
+            </div>
+
+            <!-- Navigation buttons -->
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+
+        <!-- Dots -->
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <br><br>
+        <p> My Pretty Girl Nith:*</p>
+
+        <!-- Footer -->
+        <div class="footer">
+            <h3>💌 Untukmu, Nith Jerry 💌</h3>
+            <p>
+                Aku mencintaimu tanpa batas, seperti mentari yang tak pernah lelah menerangi bumi. <br>
+                Terima kasih telah menjadi bagian terbaik dari hidupku. <br>
+                Hafiz Prayudha
+                <span class="heart-icon">❤️</span>
+            </p>
+            <li><a href="https://fishgo18.github.io/fishgotry/" style="color: rgb(0, 151, 252);">Click this one babe</a></li>
+        </div>
+    </div>
+
+    <script>
+        window.onload = () => {
+            const audio = document.getElementById("linkmp3");
+            audio.play().catch((error) => {
+                console.log("Autoplay gagal, pengguna perlu mengklik tombol untuk memutar audio.");
+            });
+        };
+
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function changeSlide(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("slides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) slideIndex = 1;
+            if (n < 1) slideIndex = slides.length;
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+</html>
